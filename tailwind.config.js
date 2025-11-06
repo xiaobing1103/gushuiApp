@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: '#1E88FD',
+        primary: '#4283E5',
       },
       backgroundImage: {
         'gradient-primary': 'linear-gradient(90deg,#1E88FD,#4FB3FF)',

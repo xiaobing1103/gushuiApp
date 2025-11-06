@@ -10,7 +10,7 @@
     <h1 class="flex-1 text-center text-base  font-medium tracking-wide">{{ title }}</h1>
 
 
-    <button class="flex justify-center flex-col text-[15px] text-[#3c76ff] mr-2 items-center"
+    <button class="flex justify-center flex-col text-[15px] text-primary mr-2 items-center"
       @click="goBatchAppeal">批量申诉</button>
   </header>
 </template>

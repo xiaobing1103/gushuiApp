@@ -85,7 +85,7 @@ export const rawIncomeEntries: IncomeItem[] = [
     income: 16550,
     socialInsurance: 2580,
     deduction: 5000,
-    showArrow: false,
+    showArrow: true,
   },
   {
     id: 20220701,
@@ -96,7 +96,7 @@ export const rawIncomeEntries: IncomeItem[] = [
     income: 16400,
     socialInsurance: 2550,
     deduction: 5000,
-    showArrow: false,
+    showArrow: true,
   },
   {
     id: 20220601,
@@ -107,7 +107,7 @@ export const rawIncomeEntries: IncomeItem[] = [
     income: 16350,
     socialInsurance: 2530,
     deduction: 5000,
-    showArrow: false,
+    showArrow: true,
   },
   {
     id: 20220602,
@@ -118,7 +118,7 @@ export const rawIncomeEntries: IncomeItem[] = [
     income: 7200,
     socialInsurance: 0,
     deduction: 0,
-    showArrow: false,
+    showArrow: true,
   },
   {
     id: 20220501,
@@ -129,7 +129,7 @@ export const rawIncomeEntries: IncomeItem[] = [
     income: 16200,
     socialInsurance: 2500,
     deduction: 5000,
-    showArrow: false,
+    showArrow: true,
   },
   {
     id: 20220401,
@@ -140,7 +140,7 @@ export const rawIncomeEntries: IncomeItem[] = [
     income: 16100,
     socialInsurance: 2480,
     deduction: 5000,
-    showArrow: false,
+    showArrow: true,
   },
   {
     id: 20220301,
@@ -151,7 +151,7 @@ export const rawIncomeEntries: IncomeItem[] = [
     income: 16050,
     socialInsurance: 2450,
     deduction: 5000,
-    showArrow: false,
+    showArrow: true,
   },
   {
     id: 20220302,
@@ -162,7 +162,7 @@ export const rawIncomeEntries: IncomeItem[] = [
     income: 6400,
     socialInsurance: 0,
     deduction: 0,
-    showArrow: false,
+    showArrow: true,
   },
   {
     id: 20220201,
@@ -173,7 +173,7 @@ export const rawIncomeEntries: IncomeItem[] = [
     income: 15950,
     socialInsurance: 2430,
     deduction: 5000,
-    showArrow: false,
+    showArrow: true,
   },
   {
     id: 20220101,
@@ -184,7 +184,7 @@ export const rawIncomeEntries: IncomeItem[] = [
     income: 15800,
     socialInsurance: 2400,
     deduction: 5000,
-    showArrow: false,
+    showArrow: true,
   },
 ]
 

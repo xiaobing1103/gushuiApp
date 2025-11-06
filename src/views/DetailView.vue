@@ -23,12 +23,12 @@
       <section class=" mt-3">
         <article v-for="item in incomeEntries" :key="item.id"
           class="px-4 py-4 border-b bg-white   border-[#f0f1f5] last:border-b-0 mt-3">
-          <header class="flex items-center justify-between text-[16px] font-medium text-[#1c1c1e]">
+          <header class="flex items-center justify-between text-[16px]  text-[#1c1c1e]">
             <span>{{ item.type }}</span>
             <span class="mr-10">{{ item.month }}</span>
           </header>
 
-          <p class="mt-3 text-[14px] text-[#9c9c9c]">{{ item.subclass }}</p>
+          <p class="mt-2 text-[14px] text-[#9c9c9c]">{{ item.subclass }}</p>
 
           <div class="mt-2 flex items-center justify-between">
             <span class="text-[14px] text-[#9c9c9c] truncate">{{ item.payer }}</span>
@@ -38,13 +38,13 @@
             </svg>
           </div>
 
-          <div class="mt-3  justify-between text-[15px]">
+          <div class="mt-2  justify-between text-[15px]">
             <span class="text-[#9c9c9c]">收入：</span>
-            <span class="font-medium text-[#9c9c9c]">{{ item.incomeText }}</span>
+            <span class="  text-[#9c9c9c]">{{ item.incomeText }}</span>
           </div>
-          <div class="mt-1  justify-between text-[15px]">
+          <div class="mt-2  justify-between text-[15px]">
             <span class="text-[#9c9c9c]">已申报税额：</span>
-            <span class="font-medium text-[#9c9c9c]">{{ item.declaredTaxText }}</span>
+            <span class=" text-[#9c9c9c]">{{ item.declaredTaxText }}</span>
           </div>
         </article>
       </section>
