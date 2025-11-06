@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 可在此追加自定义层扩展
+@layer components {
+  .btn {
+    @apply px-4 py-2 rounded bg-blue-600 text-white;
+  }
+}
+*/
