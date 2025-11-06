@@ -6,15 +6,16 @@
       <section class="bg-white px-4 py-4 mt-2">
         <dl class="space-y-3">
           <div class="flex items-center justify-between">
-            <dt class="flex items-center text-[#9c9c9c]">
+            <dt class="flex items-center text-[#1c1c1e]">
               <span class="flex items-center">收入合计 <img class="w-4 h-4 mx-1"
                   src="http://file.1foo.com/2025/11/05/b6f99802a4beb2950f6ec98a2b77a5c2.png" alt="">:</span>
 
             </dt>
             <dd class="text-[15px]  text-[#1c1c1e]">{{ summary.totalIncomeText }}</dd>
           </div>
+          <div class="w-full bg-[#eeeeee] h-[1px]"></div>
           <div class="flex items-center justify-between">
-            <dt class="text-[#9c9c9c]">已申报税额合计 :</dt>
+            <dt class="text-[#1c1c1e]">已申报税额合计 :</dt>
             <dd class="text-[15px]  text-[#1c1c1e]">{{ summary.declaredTaxText }}</dd>
           </div>
         </dl>
