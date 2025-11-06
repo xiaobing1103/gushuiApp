@@ -1,3 +1,4 @@
+import type { IncomeItem } from './datas'
 export const rawIncomeEntries: IncomeItem[] = [
   {
     id: 20221201,
